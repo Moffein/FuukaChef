@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C12803E-4AA1-4637-B476-762531F9D403}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{7C12803E-4AA1-4637-B476-762531F9D403}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Master Mixer" ID="{0440FB38-D512-40BC-82B7-B249D8CB61F7}" ShortID="638883498">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="SFX Mixer" ID="{DA661E42-C6D2-4F8A-BC2F-C21AFB28DAF1}" ShortID="754367663">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="SFXAtt" ID="{D6B8B9E7-EAF2-4BB7-86CE-F0FF87440B00}" WorkUnitID="{80DC9141-3074-4294-999B-3CCE48E94074}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Fuuka_Title" ID="{DEE7BAC9-1FAD-416A-9272-D9BE36115AD2}" ShortID="351102827">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Title" ID="{CEC68353-92C1-4CA5-89DF-CCB053D05848}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Title.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="47231389"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Title" ID="{CEC68353-92C1-4CA5-89DF-CCB053D05848}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Lobby" ID="{929DF2D9-E7FB-4AB3-A107-17A1C26AA45B}" ShortID="685153551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Fuuka_Lobby_1" ID="{28B00330-B616-4623-8515-E4A8FD327C1A}" ShortID="542585312">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_Lobby_1" ID="{1A01C0B6-EEA4-4E65-87BE-D6B4412E85FB}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_Lobby_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="183479025"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_Lobby_1" ID="{1A01C0B6-EEA4-4E65-87BE-D6B4412E85FB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Fuuka_Lobby_2" ID="{567DC668-6579-45EE-A0AE-B87EF23A6AF0}" ShortID="669829684">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_Lobby_2" ID="{4FA06E50-E592-4425-BD5B-270794B7DE89}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_Lobby_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="795328943"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_Lobby_2" ID="{4FA06E50-E592-4425-BD5B-270794B7DE89}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Fuuka_Lobby_3" ID="{20F134ED-0765-4176-A28D-58662CFBC319}" ShortID="759042783">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_Lobby_3" ID="{EB24C26B-D2BB-465C-9DB1-256A50E99CE3}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_Lobby_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="625585507"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_Lobby_3" ID="{EB24C26B-D2BB-465C-9DB1-256A50E99CE3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Fuuka_Lobby_4" ID="{75A4F7B4-62BD-4C53-8E95-A750B9E57461}" ShortID="68886987">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_Lobby_4" ID="{BB89B1D3-4A95-4690-BDD5-3A9F9A155CBF}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_Lobby_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="235066486"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_Lobby_4" ID="{BB89B1D3-4A95-4690-BDD5-3A9F9A155CBF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Fuuka_Lobby_5" ID="{7856B17C-611C-466A-8935-0AE2D05969E6}" ShortID="708352931">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_Lobby_5" ID="{8E757339-1619-4CA9-BD48-0C70A1549EAD}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_Lobby_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="255217378"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_Lobby_5" ID="{8E757339-1619-4CA9-BD48-0C70A1549EAD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Fuuka_LogIn_1" ID="{2E628048-6380-4C6D-9DD8-8270C3F96DB4}" ShortID="996232787">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_LogIn_1" ID="{FD4F63E7-73B6-4BE5-8CAC-5BC62B12A761}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_LogIn_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="56596435"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_LogIn_1" ID="{FD4F63E7-73B6-4BE5-8CAC-5BC62B12A761}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Fuuka_LogIn_2" ID="{6B86D8ED-57C9-49FA-BA4F-ADB7164CE7A6}" ShortID="334749584">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_LogIn_2" ID="{EA696563-5447-413F-95D9-9B57FC36F4AA}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_LogIn_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="310451214"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_LogIn_2" ID="{EA696563-5447-413F-95D9-9B57FC36F4AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Fuuka_Gachaget" ID="{DA7E43A2-9812-4027-8F1B-86E3D13BA2B9}" ShortID="1026376896">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_Gachaget" ID="{78FCC044-E35B-4234-BA13-402DF77C9B0B}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_Gachaget.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="96690662"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_Gachaget" ID="{78FCC044-E35B-4234-BA13-402DF77C9B0B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Fuuka_Season_Birthday" ID="{11257EBC-76E5-4F98-AEBD-D67246DEA685}" ShortID="188604635">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Season_Birthday" ID="{5DC3B86A-3217-475F-84EC-5F82E83355F2}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Season_Birthday.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="960371677"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Season_Birthday" ID="{5DC3B86A-3217-475F-84EC-5F82E83355F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Season_Halloween" ID="{725F4842-21EE-4CD2-B3F2-462550B808D0}" ShortID="709839900">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Season_Halloween" ID="{70702E72-E3CF-4CD4-99C6-DD5E37C6FE28}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Season_Halloween.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="311621456"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Season_Halloween" ID="{70702E72-E3CF-4CD4-99C6-DD5E37C6FE28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Season_NewYear" ID="{563B3EFF-3E6B-453A-844C-7FB08076EF35}" ShortID="508817926">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Season_NewYear" ID="{B2A6B7CC-E09B-4B83-B71B-D704708F0D6A}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Season_NewYear.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="83105611"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Season_NewYear" ID="{B2A6B7CC-E09B-4B83-B71B-D704708F0D6A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Season_Xmas" ID="{F1CEF4DC-D463-4F80-914D-EAE7AE9BC6A8}" ShortID="44112599">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Season_Xmas" ID="{9CD86705-B090-435F-AD67-930D0DB454DC}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Season_Xmas.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="467270811"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Season_Xmas" ID="{9CD86705-B090-435F-AD67-930D0DB454DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_ExWeapon_Get" ID="{9D926C67-85ED-44AC-97CE-92ECA2538008}" ShortID="279548610">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_ExWeapon_Get" ID="{A940EECF-664E-4534-9941-A87CAE569321}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_ExWeapon_Get.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="59514586"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_ExWeapon_Get" ID="{A940EECF-664E-4534-9941-A87CAE569321}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Relationship_Up_1" ID="{6C10C4CE-350C-465C-8AD2-3FF98F965FEC}" ShortID="298813726">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Relationship_Up_1" ID="{11491553-1FD0-4EC4-83FA-EC3DC0CBE122}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Relationship_Up_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="483410847"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Relationship_Up_1" ID="{11491553-1FD0-4EC4-83FA-EC3DC0CBE122}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Relationship_Up_2" ID="{98D1C327-5820-4649-8E05-6321EC638DF2}" ShortID="343326726">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Relationship_Up_2" ID="{9748FC10-63F2-497F-AB96-A83838FE5526}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Relationship_Up_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="842552392"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Relationship_Up_2" ID="{9748FC10-63F2-497F-AB96-A83838FE5526}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Relationship_Up_3" ID="{96EE39F9-468E-4179-9074-D215A713DB79}" ShortID="528833577">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Relationship_Up_3" ID="{B12A3393-3F00-41F4-917C-FA7D8F18F715}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Relationship_Up_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104569534"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Relationship_Up_3" ID="{B12A3393-3F00-41F4-917C-FA7D8F18F715}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Relationship_Up_4" ID="{F87A0951-C259-4223-BFDC-71FD8269880E}" ShortID="961553274">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Relationship_Up_4" ID="{FB8A46E4-87F3-42F3-B4AC-EAABA472B7F2}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Relationship_Up_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="363826068"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Relationship_Up_4" ID="{FB8A46E4-87F3-42F3-B4AC-EAABA472B7F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Levelup_Short" ID="{0A173AA5-17E5-4373-84B0-A9AF9FA58CED}" ShortID="247450144">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Fuuka_Growup_1" ID="{EB0ADEF9-DE67-48C6-92BB-30FA895CAED2}" ShortID="1060684929">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="SFXAtt" ID="{D6B8B9E7-EAF2-4BB7-86CE-F0FF87440B00}" WorkUnitID="{80DC9141-3074-4294-999B-3CCE48E94074}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_Growup_1" ID="{53C1E89F-88BA-45C1-B6AD-BC3253F9CE3B}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_Growup_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="862475866"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_Growup_1" ID="{53C1E89F-88BA-45C1-B6AD-BC3253F9CE3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Fuuka_Growup_4" ID="{647549C2-1AB9-4C02-8A04-7DAAA8EDD8EB}" ShortID="513916341">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="SFXAtt" ID="{D6B8B9E7-EAF2-4BB7-86CE-F0FF87440B00}" WorkUnitID="{80DC9141-3074-4294-999B-3CCE48E94074}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_Growup_4" ID="{DCEF33ED-3DBB-4AD8-B043-537A7912AAD8}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_Growup_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="305758420"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_Growup_4" ID="{DCEF33ED-3DBB-4AD8-B043-537A7912AAD8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Levelup_Long" ID="{28B74030-0341-486A-BB6A-ECF42DA71913}" ShortID="800389066">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Fuuka_Growup_2" ID="{A0AC2F2D-A87A-407E-9F12-F0FDA72EC8A7}" ShortID="176012610">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="SFXAtt" ID="{D6B8B9E7-EAF2-4BB7-86CE-F0FF87440B00}" WorkUnitID="{80DC9141-3074-4294-999B-3CCE48E94074}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_Growup_2" ID="{4AE8945D-8EAA-4010-B97F-246A71D8E5F4}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_Growup_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="53244226"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_Growup_2" ID="{4AE8945D-8EAA-4010-B97F-246A71D8E5F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Fuuka_Growup_3" ID="{611C19F3-BF43-4563-95F8-EA2264984463}" ShortID="540737532">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="SFXAtt" ID="{D6B8B9E7-EAF2-4BB7-86CE-F0FF87440B00}" WorkUnitID="{80DC9141-3074-4294-999B-3CCE48E94074}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_Growup_3" ID="{1525B2D0-04C1-4D71-A2F6-72688098619A}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_Growup_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="687740463"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_Growup_3" ID="{1525B2D0-04C1-4D71-A2F6-72688098619A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Fuuka_Cafe_monolog_3" ID="{9E5F29A6-6D6B-482D-B3A4-D9BD4AEF95CE}" ShortID="931546387">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Cafe_monolog_3" ID="{D9BFCF69-EE89-40ED-9936-133DCF8A22FD}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Cafe_monolog_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="318199454"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Cafe_monolog_3" ID="{D9BFCF69-EE89-40ED-9936-133DCF8A22FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Battle_In_1" ID="{A56D7F9A-5811-4F32-9256-103ACD1643FE}" ShortID="386028535">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Battle_In_1" ID="{7A1D5814-E39C-4189-A51A-53D3ED6A764E}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Battle_In_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="168689797"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Battle_In_1" ID="{7A1D5814-E39C-4189-A51A-53D3ED6A764E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Battle_TSA_1" ID="{8849051C-6073-44DE-A965-6E79EBDC3C88}" ShortID="371761856">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Battle_TSA_1" ID="{787E6038-3718-4CE4-9FBD-D2650013C775}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Battle_TSA_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="947330030"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Battle_TSA_1" ID="{787E6038-3718-4CE4-9FBD-D2650013C775}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Battle_TSA_2" ID="{FC87FE0E-1B86-4549-A0B6-A4933ED4F7BA}" ShortID="564663133">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Battle_TSA_2" ID="{FD4E3FDA-3BD2-49D7-A377-ECB68AC1B734}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Battle_TSA_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="696753497"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Battle_TSA_2" ID="{FD4E3FDA-3BD2-49D7-A377-ECB68AC1B734}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Cafe_Act_2" ID="{12A365AE-EA9D-4CC5-87F4-0896EBD786A2}" ShortID="288008812">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Cafe_Act_2" ID="{8234FFB5-E18A-4106-99D1-26A19B0B8A09}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Cafe_Act_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546541930"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Cafe_Act_2" ID="{8234FFB5-E18A-4106-99D1-26A19B0B8A09}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Memorial5" ID="{C4679EE8-E55B-4243-B6AA-B0DF9858B6C9}" ShortID="854708161">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Fuuka_MemorialLobby_5_1" ID="{DF7E4B92-80D0-41F1-8B95-2E5C740C4ECE}" ShortID="162449533">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_MemorialLobby_5_1" ID="{18D4C8CC-D3B7-4303-8117-753E8DCC9FE6}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_MemorialLobby_5_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="574454734"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_MemorialLobby_5_1" ID="{18D4C8CC-D3B7-4303-8117-753E8DCC9FE6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Fuuka_MemorialLobby_5_2" ID="{8AE41C7E-1DB3-4F04-AAB8-54259F8CB160}" ShortID="307428753">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fuuka_MemorialLobby_5_2" ID="{788BBC89-6B04-4222-A3A3-AD5A2BFC52B0}">
+													<Language>SFX</Language>
+													<AudioFile>Fuuka_MemorialLobby_5_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="422671342"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fuuka_MemorialLobby_5_2" ID="{788BBC89-6B04-4222-A3A3-AD5A2BFC52B0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<Reference>
+												<ObjectRef Name="Fuuka_MemorialLobby_5_1" ID="{DF7E4B92-80D0-41F1-8B95-2E5C740C4ECE}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Fuuka_MemorialLobby_5_2" ID="{8AE41C7E-1DB3-4F04-AAB8-54259F8CB160}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<Sound Name="Fuuka_CommonSkill" ID="{292EA73E-357F-4E45-B6BB-791A34DE8605}" ShortID="1015845782">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_CommonSkill" ID="{5AD73AA9-8EB6-48DE-9E90-20E3183221DB}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_CommonSkill.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="113271144"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_CommonSkill" ID="{5AD73AA9-8EB6-48DE-9E90-20E3183221DB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_(New_Year)_doushimashou" ID="{31A0F8C3-9FEE-47D0-AFF8-4E499FC74510}" ShortID="36725788">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_(New_Year)_doushimashou" ID="{0DD3C956-F35B-4853-90ED-141D3A2A124B}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_(New_Year)_doushimashou.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="793559674"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_(New_Year)_doushimashou" ID="{0DD3C956-F35B-4853-90ED-141D3A2A124B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_ExSkill_1" ID="{9C221D52-EBF2-48C7-9F9E-AAEE9909CDF1}" ShortID="349656143">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_ExSkill_1" ID="{EB639F37-0C5D-476B-BA16-2A7B54421817}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_ExSkill_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="285745848"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_ExSkill_1" ID="{EB639F37-0C5D-476B-BA16-2A7B54421817}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_ExSkill_2" ID="{CF8DC723-08C2-49E0-BB2E-B27FAAB9CB7E}" ShortID="408139619">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_ExSkill_2" ID="{8C8C14DE-220E-4ADA-A973-2399619355F6}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_ExSkill_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="954801580"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_ExSkill_2" ID="{8C8C14DE-220E-4ADA-A973-2399619355F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_ExSkill_3" ID="{FBD4E34D-9E9E-452E-9059-EA2744766267}" ShortID="174591366">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_ExSkill_3" ID="{7E025EE9-BA46-4E27-90A4-91690978F22C}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_ExSkill_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="463830182"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_ExSkill_3" ID="{7E025EE9-BA46-4E27-90A4-91690978F22C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_ExSkill_Level_1" ID="{4D56EC85-467F-4B9C-A34D-DB890098569E}" ShortID="366641271">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_ExSkill_Level_1" ID="{CC776A6C-2804-41D6-8786-A9224F50AD60}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_ExSkill_Level_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="830845516"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_ExSkill_Level_1" ID="{CC776A6C-2804-41D6-8786-A9224F50AD60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_ExSkill_Level_2" ID="{DFE4BE82-2D90-46F1-B3A9-DB4A76EFCA38}" ShortID="1020858468">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_ExSkill_Level_2" ID="{8FEB205A-E659-49C8-BB34-0B124AD02427}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_ExSkill_Level_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="209170793"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_ExSkill_Level_2" ID="{8FEB205A-E659-49C8-BB34-0B124AD02427}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_ExSkill_Level_3" ID="{2631A70A-7C41-4EFA-9999-02819EB7E3B3}" ShortID="139140755">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_ExSkill_Level_3" ID="{9EE7CA97-CDFA-44BE-BF67-43865E3CD6FA}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_ExSkill_Level_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="642518338"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_ExSkill_Level_3" ID="{9EE7CA97-CDFA-44BE-BF67-43865E3CD6FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_(New_Year)_ExSkill_1" ID="{763EF9DD-6387-4576-B4BC-614B8408664B}" ShortID="781923204">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_(New_Year)_ExSkill_1" ID="{5CF8F22B-1690-4399-BDC6-62E755DF031F}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_(New_Year)_ExSkill_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="318615846"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_(New_Year)_ExSkill_1" ID="{5CF8F22B-1690-4399-BDC6-62E755DF031F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_(New_Year)_ExSkill_2" ID="{4B140B6D-F343-44EA-B970-E9E387C4D4B6}" ShortID="843847861">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_(New_Year)_ExSkill_2" ID="{5AF7AABC-786B-472D-AA86-B7F886794F3B}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_(New_Year)_ExSkill_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="537214510"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_(New_Year)_ExSkill_2" ID="{5AF7AABC-786B-472D-AA86-B7F886794F3B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_(New_Year)_ExSkill_3" ID="{166832EC-60D3-44FB-8571-BE9E6E4AB00D}" ShortID="204855274">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_(New_Year)_ExSkill_3" ID="{4757BE19-2851-43E8-828D-49B7036A172C}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_(New_Year)_ExSkill_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="136545125"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_(New_Year)_ExSkill_3" ID="{4757BE19-2851-43E8-828D-49B7036A172C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_(New_Year)_ExSkill_Level_1" ID="{5AAB5201-D7B2-4115-A9FA-8367442B5A0D}" ShortID="350189365">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_(New_Year)_ExSkill_Level_1" ID="{C228D583-FBBA-4F8D-BF43-7C609A8C06CC}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_(New_Year)_ExSkill_Level_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="655628468"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_(New_Year)_ExSkill_Level_1" ID="{C228D583-FBBA-4F8D-BF43-7C609A8C06CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_(New_Year)_ExSkill_Level_2" ID="{06642FEB-3AC4-4DA8-B221-95B7F95B7F4E}" ShortID="564174462">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_(New_Year)_ExSkill_Level_2" ID="{CA69A7E1-0882-4347-87A5-2BBBF823126D}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_(New_Year)_ExSkill_Level_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="265550907"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_(New_Year)_ExSkill_Level_2" ID="{CA69A7E1-0882-4347-87A5-2BBBF823126D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_(New_Year)_ExSkill_Level_3" ID="{063D7336-247E-4826-B94D-18FEDDD0F0C4}" ShortID="552785910">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_(New_Year)_ExSkill_Level_3" ID="{5DAFF416-A0B3-4CE6-94DD-1BB3C921E275}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_(New_Year)_ExSkill_Level_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="931757438"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_(New_Year)_ExSkill_Level_3" ID="{5DAFF416-A0B3-4CE6-94DD-1BB3C921E275}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_(New_Year)_CommonSkill" ID="{978AB00F-B37D-414D-B940-713E25FDD943}" ShortID="1027076081">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_(New_Year)_CommonSkill" ID="{5225F769-A22A-4AC9-BD30-ECDBDE25EF23}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_(New_Year)_CommonSkill.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="529752678"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_(New_Year)_CommonSkill" ID="{5225F769-A22A-4AC9-BD30-ECDBDE25EF23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Thanks" ID="{83C352D0-1066-4AE7-8E0F-D96617FC45E3}" ShortID="1069109426">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Thanks" ID="{9F570D83-7668-455E-BEA4-7690FF049431}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Thanks.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="200021458"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Thanks" ID="{9F570D83-7668-455E-BEA4-7690FF049431}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_Cafe_monolog_1" ID="{120F812C-34FF-446E-B26B-7B10B3016F94}" ShortID="445055947">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="SFXAtt" ID="{D6B8B9E7-EAF2-4BB7-86CE-F0FF87440B00}" WorkUnitID="{80DC9141-3074-4294-999B-3CCE48E94074}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_Cafe_monolog_1" ID="{5BBBDD41-59E3-4886-BB96-9337DD553E41}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_Cafe_monolog_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1056960079"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_Cafe_monolog_1" ID="{5BBBDD41-59E3-4886-BB96-9337DD553E41}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fuuka_(New_Year)_Cafe_monolog_1" ID="{43F93ACA-27F9-44C4-AB7F-46AE6B350976}" ShortID="1014375987">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fuuka_(New_Year)_Cafe_monolog_1" ID="{A07693C1-6F19-48E8-AFBC-49ACE7A04658}">
+											<Language>SFX</Language>
+											<AudioFile>Fuuka_(New_Year)_Cafe_monolog_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="876031107"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fuuka_(New_Year)_Cafe_monolog_1" ID="{A07693C1-6F19-48E8-AFBC-49ACE7A04658}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<Sound Name="Fuuka_(New_Year)_EventLogin_Season_1_Clipped" ID="{522CD736-298B-4BFF-B14B-5BF6ED0410C8}" ShortID="880105250">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fuuka_(New_Year)_EventLogin_Season_1_Clipped" ID="{EB6BAB74-FB3F-492F-BC64-E5F20C37DAAC}">
+									<Language>SFX</Language>
+									<AudioFile>Fuuka_(New_Year)_EventLogin_Season_1_Clipped.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="303404072"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fuuka_(New_Year)_EventLogin_Season_1_Clipped" ID="{EB6BAB74-FB3F-492F-BC64-E5F20C37DAAC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fuuka_(New_Year)_EventLogin_Season_End" ID="{4DFCDD47-62DF-423E-9477-9D2E4DC7AD05}" ShortID="578543037">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F4EBC271-9250-464F-AC8D-3B1D65E13154}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97429858-4773-4988-8702-C602F8C924C0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fuuka_(New_Year)_EventLogin_Season_End" ID="{85E7F880-2C7B-4815-B913-8164C7076ABB}">
+									<Language>SFX</Language>
+									<AudioFile>Fuuka_(New_Year)_EventLogin_Season_End.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="362853756"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fuuka_(New_Year)_EventLogin_Season_End" ID="{85E7F880-2C7B-4815-B913-8164C7076ABB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{EF6A3B62-E8DD-415F-B96F-833D185F4F48}" ShortID="441223206">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Volume_SFX" ID="{11042AB6-62DA-4A6B-9DFA-15652083E20C}" WorkUnitID="{9D3EC4CA-FCFC-401B-BB5A-F24CEB169515}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{8C46C17E-6286-4D1D-91C0-12CA370BF890}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

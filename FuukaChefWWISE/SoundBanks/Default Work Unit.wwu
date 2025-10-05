@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0BEDC02E-A9FD-459E-BE16-D9A3906246A3}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{0BEDC02E-A9FD-459E-BE16-D9A3906246A3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="FuukaChefSoundbank" ID="{B998C810-C7AA-434B-B542-239EAFBF2CD3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_FuukaChef_Lobby_5" ID="{750132FB-B058-4006-B074-F4BBBC326095}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_NY_Cafe_1" ID="{9AD59233-6ED3-4072-BC98-086B5D7248E2}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_CookingSkills" ID="{D5E425BD-E249-40BE-B75A-A4C33F7DEF45}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_AcquireScepter" ID="{9633F373-B24B-40C3-B712-68D0A0937682}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Cafe_Act_2" ID="{FE9A5A51-57ED-40F9-8C4D-08E2B6DD432F}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Title" ID="{EE10D773-B319-41A1-A029-CA18D130BFB5}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Relationship_2" ID="{C28FF990-3B43-426D-9AD3-8F817EFF4284}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Lobby_2" ID="{2E211048-B906-42BE-B68B-DCB49055C421}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Cafe_1" ID="{B9B6D0DE-9996-434F-8A9A-77A1C36B374D}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Egg" ID="{FD8BBC95-7DC6-4354-AC15-8A4F3AD70162}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Battle_TSA_2" ID="{058A6EEC-1B92-43BA-AF87-154DFFBA0848}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Relationship_4" ID="{7B13E019-9305-43E0-83DB-9F2673E464E6}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_NY_Ex_Lv2" ID="{1416CB63-A5DA-4500-A39C-91073F800739}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Ex3" ID="{53287501-0915-4523-BBFA-47FD640BF0F2}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_CommonSkill" ID="{D4AF8194-F13D-454D-A493-507DF178D247}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Ex1" ID="{A9341E51-5B68-4603-A828-34960081CE30}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_NY_Ex2" ID="{BB9F981A-4E61-467E-88F4-27091B1839D3}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_EventEnd" ID="{3BD080FB-5E61-4682-9E63-3539DD365762}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Lobby_bday" ID="{57F058BD-A613-4705-94F2-EF2E46B110B9}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Ex_Lv1" ID="{E8E1453D-E91B-494A-8291-C3E82C02C784}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Lobby_Halloween" ID="{80473CEE-7083-49DC-8C1E-D9175BFD3E7D}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Lobby_3" ID="{26CBB4FE-26F5-49FF-A5C4-C35E8CDC5AD6}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Memorial5" ID="{17396F5B-A132-4A42-B230-BD145EE5F4A1}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Doushimashou" ID="{28FD29FF-0D1D-4A5C-895E-98B248ECC797}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_NY_Common" ID="{FE985DA0-48A6-4A5F-B16F-D506550712CC}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_NY_Ex_Lv3" ID="{48BBB7E9-5B16-4B83-9770-F5931D307F38}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Ex_Lv3" ID="{87155C0D-E52E-4BC4-949E-7469BAC89EBF}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Battle_In_1" ID="{AECDBD63-408C-4BC8-B72D-9F2974186EBB}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Ex2" ID="{8FFE0385-7E92-4BF6-93C1-6EDB4BEBA78B}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Lobby_Newyear" ID="{CD3C5281-9862-4C3E-A228-538E70633D07}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_NY_Ex3" ID="{3114625C-0BCE-4CC6-ABB7-29498F0F08E9}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_LevelUp_Short" ID="{DEF05ABB-943A-4D2A-80D2-24A75B557475}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Lobby" ID="{A3D09FD6-DC78-4D87-993A-C317057CD0F5}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Relationship_3" ID="{C8FDC553-296C-4DA3-A7B9-8E6E59BB0729}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Cafe_3" ID="{C5BEC303-DCBA-4DEE-938E-CB08DB871F83}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Lobby_xmas" ID="{80C47E9E-A1DF-4E15-850C-A6FCC4711A84}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Ex_Lv2" ID="{D703F1FE-2FE1-4E57-9415-4843ED369A2E}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Relationship_1" ID="{A7581DE2-AD72-4E89-BF3E-B627E85E48CF}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Thanks" ID="{A97D0171-CF2F-4ECF-A28F-4FE00A1CE91E}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_NY_Ex1" ID="{5A1BAD82-9A70-4EEB-A2A7-2A38DFB30216}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_NY_Ex_Lv1" ID="{0A68C6AD-EF01-4EFC-AFBC-EE55E91E9A13}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_Battle_TSA_1" ID="{1CC3E2E9-26E8-4FE7-90BE-FFE0A623102D}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FuukaChef_LevelUp_Long" ID="{5D7695F6-0287-4FEE-A15F-4436CD93D673}" WorkUnitID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

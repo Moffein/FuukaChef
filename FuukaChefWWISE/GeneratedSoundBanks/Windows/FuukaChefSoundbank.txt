@@ -1,0 +1,99 @@
+Event	ID	Name			Wwise Object Path	Notes
+	217538747	Play_FuukaChef_AcquireScepter			\Default Work Unit\Play_FuukaChef_AcquireScepter	
+	296633097	Play_FuukaChef_Title			\Default Work Unit\Play_FuukaChef_Title	
+	315638918	Play_FuukaChef_Lobby_bday			\Default Work Unit\Play_FuukaChef_Lobby_bday	
+	414855764	Play_FuukaChef_Doushimashou			\Default Work Unit\Play_FuukaChef_Doushimashou	
+	522838778	Play_FuukaChef_NY_Common			\Default Work Unit\Play_FuukaChef_NY_Common	
+	582835419	Play_FuukaChef_Lobby			\Default Work Unit\Play_FuukaChef_Lobby	
+	683351943	Play_FuukaChef_Battle_In_1			\Default Work Unit\Play_FuukaChef_Battle_In_1	
+	753394886	Play_FuukaChef_Thanks			\Default Work Unit\Play_FuukaChef_Thanks	
+	940570559	Play_FuukaChef_LevelUp_Long			\Default Work Unit\Play_FuukaChef_LevelUp_Long	
+	997922134	Play_FuukaChef_NY_Cafe_1			\Default Work Unit\Play_FuukaChef_NY_Cafe_1	
+	1066305539	Play_FuukaChef_Lobby_Halloween			\Default Work Unit\Play_FuukaChef_Lobby_Halloween	
+	1222391756	Play_FuukaChef_Memorial5			\Default Work Unit\Play_FuukaChef_Memorial5	
+	1399801994	Play_FuukaChef_EventEnd			\Default Work Unit\Play_FuukaChef_EventEnd	
+	1680387464	Play_FuukaChef_Cafe_3			\Default Work Unit\Play_FuukaChef_Cafe_3	
+	1680387466	Play_FuukaChef_Cafe_1			\Default Work Unit\Play_FuukaChef_Cafe_1	
+	1815978392	Play_FuukaChef_Ex_Lv1			\Default Work Unit\Play_FuukaChef_Ex_Lv1	
+	1815978394	Play_FuukaChef_Ex_Lv3			\Default Work Unit\Play_FuukaChef_Ex_Lv3	
+	1815978395	Play_FuukaChef_Ex_Lv2			\Default Work Unit\Play_FuukaChef_Ex_Lv2	
+	2111781848	Play_FuukaChef_NY_Ex2			\Default Work Unit\Play_FuukaChef_NY_Ex2	
+	2111781849	Play_FuukaChef_NY_Ex3			\Default Work Unit\Play_FuukaChef_NY_Ex3	
+	2111781851	Play_FuukaChef_NY_Ex1			\Default Work Unit\Play_FuukaChef_NY_Ex1	
+	2123857321	Play_FuukaChef_CommonSkill			\Default Work Unit\Play_FuukaChef_CommonSkill	
+	2126023532	Play_FuukaChef_NY_Ex_Lv1			\Default Work Unit\Play_FuukaChef_NY_Ex_Lv1	
+	2126023534	Play_FuukaChef_NY_Ex_Lv3			\Default Work Unit\Play_FuukaChef_NY_Ex_Lv3	
+	2126023535	Play_FuukaChef_NY_Ex_Lv2			\Default Work Unit\Play_FuukaChef_NY_Ex_Lv2	
+	2275069353	Play_FuukaChef_Battle_TSA_2			\Default Work Unit\Play_FuukaChef_Battle_TSA_2	
+	2275069354	Play_FuukaChef_Battle_TSA_1			\Default Work Unit\Play_FuukaChef_Battle_TSA_1	
+	2527149192	Play_FuukaChef_Lobby_2			\Default Work Unit\Play_FuukaChef_Lobby_2	
+	2527149193	Play_FuukaChef_Lobby_3			\Default Work Unit\Play_FuukaChef_Lobby_3	
+	2527149199	Play_FuukaChef_Lobby_5			\Default Work Unit\Play_FuukaChef_Lobby_5	
+	2907215472	Play_FuukaChef_Egg			\Default Work Unit\Play_FuukaChef_Egg	
+	2991103428	Play_FuukaChef_Ex2			\Default Work Unit\Play_FuukaChef_Ex2	
+	2991103429	Play_FuukaChef_Ex3			\Default Work Unit\Play_FuukaChef_Ex3	
+	2991103431	Play_FuukaChef_Ex1			\Default Work Unit\Play_FuukaChef_Ex1	
+	3040843761	Play_FuukaChef_CookingSkills			\Default Work Unit\Play_FuukaChef_CookingSkills	
+	3187745248	Play_FuukaChef_Cafe_Act_2			\Default Work Unit\Play_FuukaChef_Cafe_Act_2	
+	3441605603	Play_FuukaChef_Lobby_xmas			\Default Work Unit\Play_FuukaChef_Lobby_xmas	
+	3585834224	Play_FuukaChef_Relationship_2			\Default Work Unit\Play_FuukaChef_Relationship_2	
+	3585834225	Play_FuukaChef_Relationship_3			\Default Work Unit\Play_FuukaChef_Relationship_3	
+	3585834227	Play_FuukaChef_Relationship_1			\Default Work Unit\Play_FuukaChef_Relationship_1	
+	3585834230	Play_FuukaChef_Relationship_4			\Default Work Unit\Play_FuukaChef_Relationship_4	
+	3785028049	Play_FuukaChef_LevelUp_Short			\Default Work Unit\Play_FuukaChef_LevelUp_Short	
+	4086002135	Play_FuukaChef_Lobby_Newyear			\Default Work Unit\Play_FuukaChef_Lobby_Newyear	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	47231389	Fuuka_Title	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Title_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Title		50154
+	53244226	Fuuka_Growup_2	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Growup_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Levelup_Long\Fuuka_Growup_2		96976
+	56596435	Fuuka_LogIn_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_LogIn_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Fuuka_LogIn_1		157168
+	59514586	Fuuka_ExWeapon_Get	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_ExWeapon_Get_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_ExWeapon_Get		199063
+	83105611	Fuuka_Season_NewYear	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Season_NewYear_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Season_NewYear		160111
+	96690662	Fuuka_Gachaget	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Gachaget_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Fuuka_Gachaget		139535
+	104569534	Fuuka_Relationship_Up_3	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Relationship_Up_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Relationship_Up_3		86753
+	113271144	Fuuka_CommonSkill	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_CommonSkill_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_CommonSkill		45047
+	136545125	Fuuka_(New_Year)_ExSkill_3	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_(New_Year)_ExSkill_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_(New_Year)_ExSkill_3		37195
+	168689797	Fuuka_Battle_In_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Battle_In_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Battle_In_1		60616
+	183479025	Fuuka_Lobby_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Lobby_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Fuuka_Lobby_1		108163
+	200021458	Fuuka_Thanks	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Thanks_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Thanks		32647
+	209170793	Fuuka_ExSkill_Level_2	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_ExSkill_Level_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_ExSkill_Level_2		46365
+	235066486	Fuuka_Lobby_4	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Lobby_4_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Fuuka_Lobby_4		231827
+	255217378	Fuuka_Lobby_5	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Lobby_5_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Fuuka_Lobby_5		169474
+	265550907	Fuuka_(New_Year)_ExSkill_Level_2	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_(New_Year)_ExSkill_Level_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_(New_Year)_ExSkill_Level_2		45324
+	285745848	Fuuka_ExSkill_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_ExSkill_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_ExSkill_1		34306
+	303404072	Fuuka_(New_Year)_EventLogin_Season_1_Clipped	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_(New_Year)_EventLogin_Season_1_Clipped_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Fuuka_(New_Year)_EventLogin_Season_1_Clipped		128767
+	305758420	Fuuka_Growup_4	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Growup_4_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Levelup_Short\Fuuka_Growup_4		64073
+	310451214	Fuuka_LogIn_2	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_LogIn_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Fuuka_LogIn_2		177636
+	311621456	Fuuka_Season_Halloween	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Season_Halloween_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Season_Halloween		318411
+	318199454	Fuuka_Cafe_monolog_3	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Cafe_monolog_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Cafe_monolog_3		80556
+	318615846	Fuuka_(New_Year)_ExSkill_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_(New_Year)_ExSkill_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_(New_Year)_ExSkill_1		45100
+	362853756	Fuuka_(New_Year)_EventLogin_Season_End	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_(New_Year)_EventLogin_Season_End_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Fuuka_(New_Year)_EventLogin_Season_End		204261
+	363826068	Fuuka_Relationship_Up_4	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Relationship_Up_4_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Relationship_Up_4		168696
+	422671342	Fuuka_MemorialLobby_5_2	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_MemorialLobby_5_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Memorial5\Fuuka_MemorialLobby_5_2		242386
+	463830182	Fuuka_ExSkill_3	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_ExSkill_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_ExSkill_3		63159
+	467270811	Fuuka_Season_Xmas	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Season_Xmas_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Season_Xmas		283274
+	483410847	Fuuka_Relationship_Up_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Relationship_Up_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Relationship_Up_1		110275
+	529752678	Fuuka_(New_Year)_CommonSkill	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_(New_Year)_CommonSkill_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_(New_Year)_CommonSkill		43007
+	537214510	Fuuka_(New_Year)_ExSkill_2	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_(New_Year)_ExSkill_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_(New_Year)_ExSkill_2		52391
+	546541930	Fuuka_Cafe_Act_2	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Cafe_Act_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Cafe_Act_2		40173
+	574454734	Fuuka_MemorialLobby_5_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_MemorialLobby_5_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Memorial5\Fuuka_MemorialLobby_5_1		168405
+	625585507	Fuuka_Lobby_3	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Lobby_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Fuuka_Lobby_3		108785
+	642518338	Fuuka_ExSkill_Level_3	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_ExSkill_Level_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_ExSkill_Level_3		50005
+	655628468	Fuuka_(New_Year)_ExSkill_Level_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_(New_Year)_ExSkill_Level_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_(New_Year)_ExSkill_Level_1		56759
+	687740463	Fuuka_Growup_3	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Growup_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Levelup_Long\Fuuka_Growup_3		82987
+	696753497	Fuuka_Battle_TSA_2	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Battle_TSA_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Battle_TSA_2		79711
+	793559674	Fuuka_(New_Year)_doushimashou	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_(New_Year)_doushimashou_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_(New_Year)_doushimashou		43384
+	795328943	Fuuka_Lobby_2	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Lobby_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Fuuka_Lobby_2		110365
+	830845516	Fuuka_ExSkill_Level_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_ExSkill_Level_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_ExSkill_Level_1		49855
+	842552392	Fuuka_Relationship_Up_2	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Relationship_Up_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Relationship_Up_2		86654
+	862475866	Fuuka_Growup_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Growup_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Levelup_Short\Fuuka_Growup_1		54736
+	876031107	Fuuka_(New_Year)_Cafe_monolog_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_(New_Year)_Cafe_monolog_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_(New_Year)_Cafe_monolog_1		101645
+	931757438	Fuuka_(New_Year)_ExSkill_Level_3	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_(New_Year)_ExSkill_Level_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_(New_Year)_ExSkill_Level_3		62784
+	947330030	Fuuka_Battle_TSA_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Battle_TSA_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Battle_TSA_1		118985
+	954801580	Fuuka_ExSkill_2	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_ExSkill_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_ExSkill_2		53168
+	960371677	Fuuka_Season_Birthday	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Season_Birthday_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Season_Birthday		425315
+	1056960079	Fuuka_Cafe_monolog_1	D:\Projects\RoR2 Mods\FuukaChef\FuukaChefWWISE\.cache\Windows\SFX\Fuuka_Cafe_monolog_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Fuuka_Cafe_monolog_1		64137
+

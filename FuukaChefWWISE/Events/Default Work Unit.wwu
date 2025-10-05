@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{EA10C11D-20DB-498E-B56A-E3946802D02C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_FuukaChef_Title" ID="{EE10D773-B319-41A1-A029-CA18D130BFB5}">
+					<ChildrenList>
+						<Action Name="" ID="{B8380112-E69C-41AE-83EB-DEB9C6C7AA89}" ShortID="39634579">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Title" ID="{DEE7BAC9-1FAD-416A-9272-D9BE36115AD2}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Lobby" ID="{A3D09FD6-DC78-4D87-993A-C317057CD0F5}">
+					<ChildrenList>
+						<Action Name="" ID="{4549CC35-2A13-4344-AEE2-FB9D83EDFCB4}" ShortID="970571654">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lobby" ID="{929DF2D9-E7FB-4AB3-A107-17A1C26AA45B}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Lobby_Newyear" ID="{CD3C5281-9862-4C3E-A228-538E70633D07}">
+					<ChildrenList>
+						<Action Name="" ID="{C6BEB6E8-ECBB-4DDF-8BD1-B6C809D0612A}" ShortID="677325745">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Season_NewYear" ID="{563B3EFF-3E6B-453A-844C-7FB08076EF35}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Lobby_bday" ID="{57F058BD-A613-4705-94F2-EF2E46B110B9}">
+					<ChildrenList>
+						<Action Name="" ID="{57E2542C-F83F-42B6-835E-AB8B0EE887E6}" ShortID="831580079">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Season_Birthday" ID="{11257EBC-76E5-4F98-AEBD-D67246DEA685}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Lobby_Halloween" ID="{80473CEE-7083-49DC-8C1E-D9175BFD3E7D}">
+					<ChildrenList>
+						<Action Name="" ID="{2CA28507-4001-454F-A79D-CB6708A8A585}" ShortID="64666171">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Season_Halloween" ID="{725F4842-21EE-4CD2-B3F2-462550B808D0}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Lobby_xmas" ID="{80C47E9E-A1DF-4E15-850C-A6FCC4711A84}">
+					<ChildrenList>
+						<Action Name="" ID="{0C0E4A92-D36A-47A6-9E60-AD2BED7E2A5B}" ShortID="39588550">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Season_Xmas" ID="{F1CEF4DC-D463-4F80-914D-EAE7AE9BC6A8}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_LevelUp_Long" ID="{5D7695F6-0287-4FEE-A15F-4436CD93D673}">
+					<ChildrenList>
+						<Action Name="" ID="{54758BBC-B29A-4604-8260-F5B8C65488DF}" ShortID="419498764">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Levelup_Long" ID="{28B74030-0341-486A-BB6A-ECF42DA71913}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_LevelUp_Short" ID="{DEF05ABB-943A-4D2A-80D2-24A75B557475}">
+					<ChildrenList>
+						<Action Name="" ID="{BD12386B-DF4B-4183-B04F-CDF631C9A5B2}" ShortID="672524415">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Levelup_Short" ID="{0A173AA5-17E5-4373-84B0-A9AF9FA58CED}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_AcquireScepter" ID="{9633F373-B24B-40C3-B712-68D0A0937682}">
+					<ChildrenList>
+						<Action Name="" ID="{1409ED25-4C84-4322-8467-381A1A5B801E}" ShortID="670513626">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_ExWeapon_Get" ID="{9D926C67-85ED-44AC-97CE-92ECA2538008}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Relationship_1" ID="{A7581DE2-AD72-4E89-BF3E-B627E85E48CF}">
+					<ChildrenList>
+						<Action Name="" ID="{3AB7C5B6-4AFE-4641-BDFE-3B5AB1B60645}" ShortID="650076064">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Relationship_Up_1" ID="{6C10C4CE-350C-465C-8AD2-3FF98F965FEC}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Relationship_2" ID="{C28FF990-3B43-426D-9AD3-8F817EFF4284}">
+					<ChildrenList>
+						<Action Name="" ID="{7FFE2742-0EC6-4EC2-B29C-BB8990F78ECF}" ShortID="805301057">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Relationship_Up_2" ID="{98D1C327-5820-4649-8E05-6321EC638DF2}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Relationship_3" ID="{C8FDC553-296C-4DA3-A7B9-8E6E59BB0729}">
+					<ChildrenList>
+						<Action Name="" ID="{EC6E0140-54AD-44BB-B294-20F0407C8567}" ShortID="875712577">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Relationship_Up_3" ID="{96EE39F9-468E-4179-9074-D215A713DB79}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Relationship_4" ID="{7B13E019-9305-43E0-83DB-9F2673E464E6}">
+					<ChildrenList>
+						<Action Name="" ID="{C8771A50-20DA-4FA6-B6F5-C4B7883FC300}" ShortID="316847975">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Relationship_Up_4" ID="{F87A0951-C259-4223-BFDC-71FD8269880E}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Cafe_3" ID="{C5BEC303-DCBA-4DEE-938E-CB08DB871F83}">
+					<ChildrenList>
+						<Action Name="" ID="{F1F75B3C-0E34-495B-A9D0-A3CA7669A363}" ShortID="16062073">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Cafe_monolog_3" ID="{9E5F29A6-6D6B-482D-B3A4-D9BD4AEF95CE}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Battle_In_1" ID="{AECDBD63-408C-4BC8-B72D-9F2974186EBB}">
+					<ChildrenList>
+						<Action Name="" ID="{01B1D75B-4F86-4F57-8DC1-E30A669ABA88}" ShortID="274264620">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Battle_In_1" ID="{A56D7F9A-5811-4F32-9256-103ACD1643FE}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Battle_TSA_1" ID="{1CC3E2E9-26E8-4FE7-90BE-FFE0A623102D}">
+					<ChildrenList>
+						<Action Name="" ID="{F742926E-197F-495F-91E1-2F0ACB0B9003}" ShortID="966808725">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Battle_TSA_1" ID="{8849051C-6073-44DE-A965-6E79EBDC3C88}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Battle_TSA_2" ID="{058A6EEC-1B92-43BA-AF87-154DFFBA0848}">
+					<ChildrenList>
+						<Action Name="" ID="{3BEAE582-21D9-45D4-8B52-D295E013A0DB}" ShortID="1921576">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Battle_TSA_2" ID="{FC87FE0E-1B86-4549-A0B6-A4933ED4F7BA}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Cafe_Act_2" ID="{FE9A5A51-57ED-40F9-8C4D-08E2B6DD432F}">
+					<ChildrenList>
+						<Action Name="" ID="{B2CC0F2B-5F6B-48F4-AAF5-184FC94CEA9A}" ShortID="787477031">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Cafe_Act_2" ID="{12A365AE-EA9D-4CC5-87F4-0896EBD786A2}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_CookingSkills" ID="{D5E425BD-E249-40BE-B75A-A4C33F7DEF45}">
+					<ChildrenList>
+						<Action Name="" ID="{7536FDBF-654E-4176-AD57-1C5F56D9D3AC}" ShortID="333214220">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_(New_Year)_EventLogin_Season_1_Clipped" ID="{522CD736-298B-4BFF-B14B-5BF6ED0410C8}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Lobby_3" ID="{26CBB4FE-26F5-49FF-A5C4-C35E8CDC5AD6}">
+					<ChildrenList>
+						<Action Name="" ID="{23777A65-59E2-4C98-9E1B-731752EED905}" ShortID="440329248">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Lobby_3" ID="{20F134ED-0765-4176-A28D-58662CFBC319}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Memorial5" ID="{17396F5B-A132-4A42-B230-BD145EE5F4A1}">
+					<ChildrenList>
+						<Action Name="" ID="{23397F7E-1B9F-4450-8462-02C4621330D0}" ShortID="476886278">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Memorial5" ID="{C4679EE8-E55B-4243-B6AA-B0DF9858B6C9}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_EventEnd" ID="{3BD080FB-5E61-4682-9E63-3539DD365762}">
+					<ChildrenList>
+						<Action Name="" ID="{E671EA6C-A192-4C72-9B8E-C3CB647CC60E}" ShortID="308136568">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_(New_Year)_EventLogin_Season_End" ID="{4DFCDD47-62DF-423E-9477-9D2E4DC7AD05}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_CommonSkill" ID="{D4AF8194-F13D-454D-A493-507DF178D247}">
+					<ChildrenList>
+						<Action Name="" ID="{F78D9DFA-579F-47AB-A81A-F8A2BDCAE09D}" ShortID="857978072">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_CommonSkill" ID="{292EA73E-357F-4E45-B6BB-791A34DE8605}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Doushimashou" ID="{28FD29FF-0D1D-4A5C-895E-98B248ECC797}">
+					<ChildrenList>
+						<Action Name="" ID="{60FEF6D6-54AF-47F0-8165-A8844FC256D9}" ShortID="276397590">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_(New_Year)_doushimashou" ID="{31A0F8C3-9FEE-47D0-AFF8-4E499FC74510}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Ex1" ID="{A9341E51-5B68-4603-A828-34960081CE30}">
+					<ChildrenList>
+						<Action Name="" ID="{7F43B3AC-AB47-48CE-A422-E3781087B2D9}" ShortID="116883479">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_ExSkill_1" ID="{9C221D52-EBF2-48C7-9F9E-AAEE9909CDF1}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Ex2" ID="{8FFE0385-7E92-4BF6-93C1-6EDB4BEBA78B}">
+					<ChildrenList>
+						<Action Name="" ID="{D7F12DA5-9C4C-441B-A8B8-318603EE7534}" ShortID="634737983">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_ExSkill_2" ID="{CF8DC723-08C2-49E0-BB2E-B27FAAB9CB7E}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Ex3" ID="{53287501-0915-4523-BBFA-47FD640BF0F2}">
+					<ChildrenList>
+						<Action Name="" ID="{64991B9D-F1B5-48F8-8271-E10D06E36CB5}" ShortID="582264075">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_ExSkill_3" ID="{FBD4E34D-9E9E-452E-9059-EA2744766267}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Ex_Lv1" ID="{E8E1453D-E91B-494A-8291-C3E82C02C784}">
+					<ChildrenList>
+						<Action Name="" ID="{8DC57360-3C46-4697-B901-75D7BD94CA8E}" ShortID="465029724">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_ExSkill_Level_1" ID="{4D56EC85-467F-4B9C-A34D-DB890098569E}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Ex_Lv2" ID="{D703F1FE-2FE1-4E57-9415-4843ED369A2E}">
+					<ChildrenList>
+						<Action Name="" ID="{9C32E98D-BF16-4BCA-BE36-C4A32EBEB5CA}" ShortID="181245741">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_ExSkill_Level_2" ID="{DFE4BE82-2D90-46F1-B3A9-DB4A76EFCA38}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Ex_Lv3" ID="{87155C0D-E52E-4BC4-949E-7469BAC89EBF}">
+					<ChildrenList>
+						<Action Name="" ID="{8A796DF6-648E-4F1C-B9ED-647BE39AB2A6}" ShortID="795259632">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_ExSkill_Level_3" ID="{2631A70A-7C41-4EFA-9999-02819EB7E3B3}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_NY_Ex1" ID="{5A1BAD82-9A70-4EEB-A2A7-2A38DFB30216}">
+					<ChildrenList>
+						<Action Name="" ID="{AFA77C36-E1E9-4486-8E72-609024A9F4A4}" ShortID="756491943">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_(New_Year)_ExSkill_1" ID="{763EF9DD-6387-4576-B4BC-614B8408664B}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_NY_Ex2" ID="{BB9F981A-4E61-467E-88F4-27091B1839D3}">
+					<ChildrenList>
+						<Action Name="" ID="{E3E78CFA-B2C1-4B3E-A500-E42C1912F215}" ShortID="173620838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_(New_Year)_ExSkill_2" ID="{4B140B6D-F343-44EA-B970-E9E387C4D4B6}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_NY_Ex3" ID="{3114625C-0BCE-4CC6-ABB7-29498F0F08E9}">
+					<ChildrenList>
+						<Action Name="" ID="{2B80528B-8A32-467E-9295-5B40C8BA02A1}" ShortID="398545573">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_(New_Year)_ExSkill_3" ID="{166832EC-60D3-44FB-8571-BE9E6E4AB00D}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_NY_Ex_Lv1" ID="{0A68C6AD-EF01-4EFC-AFBC-EE55E91E9A13}">
+					<ChildrenList>
+						<Action Name="" ID="{A81F5BBB-E4EF-4951-A083-3636700BFC0C}" ShortID="12198165">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_(New_Year)_ExSkill_Level_1" ID="{5AAB5201-D7B2-4115-A9FA-8367442B5A0D}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_NY_Ex_Lv2" ID="{1416CB63-A5DA-4500-A39C-91073F800739}">
+					<ChildrenList>
+						<Action Name="" ID="{04FB0423-1A8E-414B-B60E-DEA6CAF87254}" ShortID="708670916">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_(New_Year)_ExSkill_Level_2" ID="{06642FEB-3AC4-4DA8-B221-95B7F95B7F4E}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_NY_Ex_Lv3" ID="{48BBB7E9-5B16-4B83-9770-F5931D307F38}">
+					<ChildrenList>
+						<Action Name="" ID="{228FBA8F-7D09-4238-8EE1-646CC19A3FDD}" ShortID="847710901">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_(New_Year)_ExSkill_Level_3" ID="{063D7336-247E-4826-B94D-18FEDDD0F0C4}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_NY_Common" ID="{FE985DA0-48A6-4A5F-B16F-D506550712CC}">
+					<ChildrenList>
+						<Action Name="" ID="{9F65D3D4-FA15-4FAC-86E0-EE6858A3C565}" ShortID="775582102">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_(New_Year)_CommonSkill" ID="{978AB00F-B37D-414D-B940-713E25FDD943}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Thanks" ID="{A97D0171-CF2F-4ECF-A28F-4FE00A1CE91E}">
+					<ChildrenList>
+						<Action Name="" ID="{783EA15C-663B-4FE2-AE0C-AB55DCEAADCD}" ShortID="442085590">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Thanks" ID="{83C352D0-1066-4AE7-8E0F-D96617FC45E3}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Egg" ID="{FD8BBC95-7DC6-4354-AC15-8A4F3AD70162}">
+					<ChildrenList>
+						<Action Name="" ID="{3BFDA346-AA88-4106-9839-61EC4FFA3678}" ShortID="217285161">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_LogIn_2" ID="{6B86D8ED-57C9-49FA-BA4F-ADB7164CE7A6}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Lobby_2" ID="{2E211048-B906-42BE-B68B-DCB49055C421}">
+					<ChildrenList>
+						<Action Name="" ID="{5E537666-524F-4F5A-93CF-D258F56A0A8C}" ShortID="497987645">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Lobby_2" ID="{567DC668-6579-45EE-A0AE-B87EF23A6AF0}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Lobby_5" ID="{750132FB-B058-4006-B074-F4BBBC326095}">
+					<ChildrenList>
+						<Action Name="" ID="{6989298E-84CE-4C51-B240-BAC6B1393CDA}" ShortID="986623241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Lobby_5" ID="{7856B17C-611C-466A-8935-0AE2D05969E6}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_Cafe_1" ID="{B9B6D0DE-9996-434F-8A9A-77A1C36B374D}">
+					<ChildrenList>
+						<Action Name="" ID="{D32247F7-FF16-4FDD-938B-A3A35ECB7D7B}" ShortID="296061368">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_Cafe_monolog_1" ID="{120F812C-34FF-446E-B26B-7B10B3016F94}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuukaChef_NY_Cafe_1" ID="{9AD59233-6ED3-4072-BC98-086B5D7248E2}">
+					<ChildrenList>
+						<Action Name="" ID="{3F5FFE2B-82A5-4D69-B4E8-1799B625B1D4}" ShortID="711564049">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuuka_(New_Year)_Cafe_monolog_1" ID="{43F93ACA-27F9-44C4-AB7F-46AE6B350976}" WorkUnitID="{7C12803E-4AA1-4637-B476-762531F9D403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

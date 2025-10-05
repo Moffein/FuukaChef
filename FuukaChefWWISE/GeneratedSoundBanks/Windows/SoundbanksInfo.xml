@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7F3A15DD-340D-EF22-59CE-AC32EA50B08A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3017480954" Type="User" Language="SFX" Hash="{6E37F991-60E1-6204-4FF6-9BC8518C1A84}">
+			<ShortName>FuukaChefSoundbank</ShortName>
+			<Path>FuukaChefSoundbank.bnk</Path>
+			<Media>
+				<File Id="47231389" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Title.wav</ShortName>
+					<CachePath>SFX/Fuuka_Title_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="53244226" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Growup_2.wav</ShortName>
+					<CachePath>SFX/Fuuka_Growup_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="56596435" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_LogIn_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_LogIn_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="59514586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_ExWeapon_Get.wav</ShortName>
+					<CachePath>SFX/Fuuka_ExWeapon_Get_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="83105611" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Season_NewYear.wav</ShortName>
+					<CachePath>SFX/Fuuka_Season_NewYear_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="96690662" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Gachaget.wav</ShortName>
+					<CachePath>SFX/Fuuka_Gachaget_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="104569534" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Relationship_Up_3.wav</ShortName>
+					<CachePath>SFX/Fuuka_Relationship_Up_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="113271144" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_CommonSkill.wav</ShortName>
+					<CachePath>SFX/Fuuka_CommonSkill_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="136545125" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_(New_Year)_ExSkill_3.wav</ShortName>
+					<CachePath>SFX/Fuuka_(New_Year)_ExSkill_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="168689797" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Battle_In_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_Battle_In_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="183479025" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Lobby_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_Lobby_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="200021458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Thanks.wav</ShortName>
+					<CachePath>SFX/Fuuka_Thanks_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="209170793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_ExSkill_Level_2.wav</ShortName>
+					<CachePath>SFX/Fuuka_ExSkill_Level_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="235066486" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Lobby_4.wav</ShortName>
+					<CachePath>SFX/Fuuka_Lobby_4_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="255217378" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Lobby_5.wav</ShortName>
+					<CachePath>SFX/Fuuka_Lobby_5_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="265550907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_(New_Year)_ExSkill_Level_2.wav</ShortName>
+					<CachePath>SFX/Fuuka_(New_Year)_ExSkill_Level_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="285745848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_ExSkill_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_ExSkill_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="303404072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_(New_Year)_EventLogin_Season_1_Clipped.wav</ShortName>
+					<CachePath>SFX/Fuuka_(New_Year)_EventLogin_Season_1_Clipped_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="305758420" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Growup_4.wav</ShortName>
+					<CachePath>SFX/Fuuka_Growup_4_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="310451214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_LogIn_2.wav</ShortName>
+					<CachePath>SFX/Fuuka_LogIn_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="311621456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Season_Halloween.wav</ShortName>
+					<CachePath>SFX/Fuuka_Season_Halloween_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="318199454" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Cafe_monolog_3.wav</ShortName>
+					<CachePath>SFX/Fuuka_Cafe_monolog_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="318615846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_(New_Year)_ExSkill_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_(New_Year)_ExSkill_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="362853756" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_(New_Year)_EventLogin_Season_End.wav</ShortName>
+					<CachePath>SFX/Fuuka_(New_Year)_EventLogin_Season_End_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="363826068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Relationship_Up_4.wav</ShortName>
+					<CachePath>SFX/Fuuka_Relationship_Up_4_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="422671342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_MemorialLobby_5_2.wav</ShortName>
+					<CachePath>SFX/Fuuka_MemorialLobby_5_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="463830182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_ExSkill_3.wav</ShortName>
+					<CachePath>SFX/Fuuka_ExSkill_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="467270811" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Season_Xmas.wav</ShortName>
+					<CachePath>SFX/Fuuka_Season_Xmas_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="483410847" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Relationship_Up_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_Relationship_Up_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="529752678" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_(New_Year)_CommonSkill.wav</ShortName>
+					<CachePath>SFX/Fuuka_(New_Year)_CommonSkill_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="537214510" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_(New_Year)_ExSkill_2.wav</ShortName>
+					<CachePath>SFX/Fuuka_(New_Year)_ExSkill_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="546541930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Cafe_Act_2.wav</ShortName>
+					<CachePath>SFX/Fuuka_Cafe_Act_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="574454734" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_MemorialLobby_5_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_MemorialLobby_5_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="625585507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Lobby_3.wav</ShortName>
+					<CachePath>SFX/Fuuka_Lobby_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="642518338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_ExSkill_Level_3.wav</ShortName>
+					<CachePath>SFX/Fuuka_ExSkill_Level_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="655628468" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_(New_Year)_ExSkill_Level_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_(New_Year)_ExSkill_Level_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="687740463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Growup_3.wav</ShortName>
+					<CachePath>SFX/Fuuka_Growup_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="696753497" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Battle_TSA_2.wav</ShortName>
+					<CachePath>SFX/Fuuka_Battle_TSA_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="793559674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_(New_Year)_doushimashou.wav</ShortName>
+					<CachePath>SFX/Fuuka_(New_Year)_doushimashou_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="795328943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Lobby_2.wav</ShortName>
+					<CachePath>SFX/Fuuka_Lobby_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="830845516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_ExSkill_Level_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_ExSkill_Level_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="842552392" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Relationship_Up_2.wav</ShortName>
+					<CachePath>SFX/Fuuka_Relationship_Up_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="862475866" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Growup_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_Growup_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="876031107" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_(New_Year)_Cafe_monolog_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_(New_Year)_Cafe_monolog_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="931757438" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_(New_Year)_ExSkill_Level_3.wav</ShortName>
+					<CachePath>SFX/Fuuka_(New_Year)_ExSkill_Level_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="947330030" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Battle_TSA_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_Battle_TSA_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="954801580" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_ExSkill_2.wav</ShortName>
+					<CachePath>SFX/Fuuka_ExSkill_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="960371677" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Season_Birthday.wav</ShortName>
+					<CachePath>SFX/Fuuka_Season_Birthday_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1056960079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuuka_Cafe_monolog_1.wav</ShortName>
+					<CachePath>SFX/Fuuka_Cafe_monolog_1_380E8DD5.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="217538747" Name="Play_FuukaChef_AcquireScepter">
+					<MediaRefs>
+						<MediaRef Id="59514586"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="683351943" Name="Play_FuukaChef_Battle_In_1">
+					<MediaRefs>
+						<MediaRef Id="168689797"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2275069354" Name="Play_FuukaChef_Battle_TSA_1">
+					<MediaRefs>
+						<MediaRef Id="947330030"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2275069353" Name="Play_FuukaChef_Battle_TSA_2">
+					<MediaRefs>
+						<MediaRef Id="696753497"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1680387466" Name="Play_FuukaChef_Cafe_1">
+					<MediaRefs>
+						<MediaRef Id="1056960079"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1680387464" Name="Play_FuukaChef_Cafe_3">
+					<MediaRefs>
+						<MediaRef Id="318199454"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3187745248" Name="Play_FuukaChef_Cafe_Act_2">
+					<MediaRefs>
+						<MediaRef Id="546541930"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2123857321" Name="Play_FuukaChef_CommonSkill">
+					<MediaRefs>
+						<MediaRef Id="113271144"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3040843761" Name="Play_FuukaChef_CookingSkills">
+					<MediaRefs>
+						<MediaRef Id="303404072"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="414855764" Name="Play_FuukaChef_Doushimashou">
+					<MediaRefs>
+						<MediaRef Id="793559674"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2907215472" Name="Play_FuukaChef_Egg">
+					<MediaRefs>
+						<MediaRef Id="310451214"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1399801994" Name="Play_FuukaChef_EventEnd">
+					<MediaRefs>
+						<MediaRef Id="362853756"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2991103431" Name="Play_FuukaChef_Ex1">
+					<MediaRefs>
+						<MediaRef Id="285745848"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2991103428" Name="Play_FuukaChef_Ex2">
+					<MediaRefs>
+						<MediaRef Id="954801580"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2991103429" Name="Play_FuukaChef_Ex3">
+					<MediaRefs>
+						<MediaRef Id="463830182"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1815978392" Name="Play_FuukaChef_Ex_Lv1">
+					<MediaRefs>
+						<MediaRef Id="830845516"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1815978395" Name="Play_FuukaChef_Ex_Lv2">
+					<MediaRefs>
+						<MediaRef Id="209170793"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1815978394" Name="Play_FuukaChef_Ex_Lv3">
+					<MediaRefs>
+						<MediaRef Id="642518338"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="940570559" Name="Play_FuukaChef_LevelUp_Long">
+					<MediaRefs>
+						<MediaRef Id="53244226"/>
+						<MediaRef Id="687740463"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3785028049" Name="Play_FuukaChef_LevelUp_Short">
+					<MediaRefs>
+						<MediaRef Id="305758420"/>
+						<MediaRef Id="862475866"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="582835419" Name="Play_FuukaChef_Lobby">
+					<MediaRefs>
+						<MediaRef Id="56596435"/>
+						<MediaRef Id="96690662"/>
+						<MediaRef Id="183479025"/>
+						<MediaRef Id="235066486"/>
+						<MediaRef Id="255217378"/>
+						<MediaRef Id="310451214"/>
+						<MediaRef Id="625585507"/>
+						<MediaRef Id="795328943"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2527149192" Name="Play_FuukaChef_Lobby_2">
+					<MediaRefs>
+						<MediaRef Id="795328943"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2527149193" Name="Play_FuukaChef_Lobby_3">
+					<MediaRefs>
+						<MediaRef Id="625585507"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2527149199" Name="Play_FuukaChef_Lobby_5">
+					<MediaRefs>
+						<MediaRef Id="255217378"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="315638918" Name="Play_FuukaChef_Lobby_bday">
+					<MediaRefs>
+						<MediaRef Id="960371677"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1066305539" Name="Play_FuukaChef_Lobby_Halloween">
+					<MediaRefs>
+						<MediaRef Id="311621456"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4086002135" Name="Play_FuukaChef_Lobby_Newyear">
+					<MediaRefs>
+						<MediaRef Id="83105611"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3441605603" Name="Play_FuukaChef_Lobby_xmas">
+					<MediaRefs>
+						<MediaRef Id="467270811"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1222391756" Name="Play_FuukaChef_Memorial5">
+					<MediaRefs>
+						<MediaRef Id="422671342"/>
+						<MediaRef Id="574454734"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="997922134" Name="Play_FuukaChef_NY_Cafe_1">
+					<MediaRefs>
+						<MediaRef Id="876031107"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="522838778" Name="Play_FuukaChef_NY_Common">
+					<MediaRefs>
+						<MediaRef Id="529752678"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2111781851" Name="Play_FuukaChef_NY_Ex1">
+					<MediaRefs>
+						<MediaRef Id="318615846"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2111781848" Name="Play_FuukaChef_NY_Ex2">
+					<MediaRefs>
+						<MediaRef Id="537214510"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2111781849" Name="Play_FuukaChef_NY_Ex3">
+					<MediaRefs>
+						<MediaRef Id="136545125"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2126023532" Name="Play_FuukaChef_NY_Ex_Lv1">
+					<MediaRefs>
+						<MediaRef Id="655628468"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2126023535" Name="Play_FuukaChef_NY_Ex_Lv2">
+					<MediaRefs>
+						<MediaRef Id="265550907"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2126023534" Name="Play_FuukaChef_NY_Ex_Lv3">
+					<MediaRefs>
+						<MediaRef Id="931757438"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3585834227" Name="Play_FuukaChef_Relationship_1">
+					<MediaRefs>
+						<MediaRef Id="483410847"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3585834224" Name="Play_FuukaChef_Relationship_2">
+					<MediaRefs>
+						<MediaRef Id="842552392"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3585834225" Name="Play_FuukaChef_Relationship_3">
+					<MediaRefs>
+						<MediaRef Id="104569534"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3585834230" Name="Play_FuukaChef_Relationship_4">
+					<MediaRefs>
+						<MediaRef Id="363826068"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="753394886" Name="Play_FuukaChef_Thanks">
+					<MediaRefs>
+						<MediaRef Id="200021458"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="296633097" Name="Play_FuukaChef_Title">
+					<MediaRefs>
+						<MediaRef Id="47231389"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{884BAE0B-65A7-079A-441E-ED2BF60DADFA}</FileHash>
+</SoundBanksInfo>
