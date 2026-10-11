@@ -21,7 +21,7 @@ namespace FuukaChef
     [BepInDependency(R2API.SoundAPI.PluginGUID)]
     [BepInDependency("com.rune580.riskofoptions", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("com.Moffein.BaseVoiceoverLib", BepInDependency.DependencyFlags.HardDependency)]
-    [BepInPlugin("com.Schale.FuukaChefVoiceover", "FuukaChefVoiceover", "1.0.2")]
+    [BepInPlugin("com.Schale.FuukaChefVoiceover", "FuukaChefVoiceover", "1.0.4")]
     public class FuukaChefVoiceoverPlugin : BaseUnityPlugin
     {
         public static ConfigEntry<bool> enableVoicelines;
@@ -168,21 +168,6 @@ namespace FuukaChef
 
         private void PopulateFoodList()
         {
-            AddItemIfValid("Mushroom");
-            AddItemIfValid("MushroomVoid");
-            AddItemIfValid("FlatHealth");
-            AddItemIfValid("Squid");
-            AddItemIfValid("Clover");
-            AddItemIfValid("Plant");
-            AddItemIfValid("Seed");
-            AddItemIfValid("CHARGED_URCHIN");
-            AddItemIfValid("MysticsItems_Cookie");
-            AddItemIfValid("MysticsItems_HealOrbOnBarrel");
-            AddItemIfValid("CLASSICITEMSRETURNS_ITEM_BITTERROOT");
-            AddItemIfValid("CLASSICITEMSRETURNS_ITEM_56LEAFCLOVER");
-
-            AddItemIfValid("HealWhileSafe");
-
             AddEquipmentIfValid("Fruit");
             AddEquipmentIfValid("HealAndRevive");
             AddEquipmentIfValid("HealAndReviveConsumed");
@@ -191,12 +176,6 @@ namespace FuukaChef
             AddEggItemIfValid("ParentEgg");
             AddEggItemIfValid("HopooEgg");
             AddEggEquipmentIfValid("FireBallDash");
-        }
-
-        private void AddItemIfValid(string itemName)
-        {
-            ItemIndex id = ItemCatalog.FindItemIndex(itemName);
-            if (id != ItemIndex.None) FuukaChefVoiceoverComponent.foodItems.Add(id);
         }
 
         private void AddEquipmentIfValid(string equipmentName)

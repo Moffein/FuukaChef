@@ -23,7 +23,6 @@ namespace FuukaChef.Components
 
         public static NetworkSoundEventDef nseNYCafe1 ,nseThanks, nseDoushimashou, nseNYCommon, nseNYEx1, nseNYEx2, nseNYEx3, nseNYExLv1, nseNYExLv2, nseNYExLv3, nseEx1, nseEx2, nseEx3, nseExLv1, nseExLv2, nseExLv3, nseTitle;
 
-        public static HashSet<ItemIndex> foodItems = new HashSet<ItemIndex>();
         public static HashSet<ItemIndex> eggItems = new HashSet<ItemIndex>();
         public static HashSet<EquipmentIndex> foodEquipment = new HashSet<EquipmentIndex>();
         public static HashSet<EquipmentIndex> eggEquipment = new HashSet<EquipmentIndex>();
@@ -95,7 +94,7 @@ namespace FuukaChef.Components
                 {
                     PlayEggGet();
                 }
-                else if (foodItems.Contains(itemIndex))
+                else if (id.ContainsTag(ItemTag.FoodRelated))
                 {
                     PlayFoodGet();
                 }
